@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     $('#submitNumber').click(function () {
         if (numbers.length >= 10) {
-            alert('Вы уже ввели 10 чисел!');
+            alert('You have entered 10 numbers!');
             return;
         }
 
